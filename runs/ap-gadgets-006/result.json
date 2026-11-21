@@ -1,0 +1,2950 @@
+{
+  "retained": 15,
+  "cases": [
+    {
+      "arc_a": 0,
+      "arc_b": 9,
+      "k": 3,
+      "n": 11,
+      "distance": 1,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "1180": 1,
+        "1612": 1,
+        "1828": 1
+      },
+      "critical_write_flow": {
+        "28": "2",
+        "56": "1",
+        "224": "3",
+        "336": "1",
+        "896": "1",
+        "1792": "2"
+      },
+      "uniform_write_flow": {
+        "28": "1",
+        "672": "1",
+        "1344": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 0,
+      "arc_b": 12,
+      "k": 4,
+      "n": 14,
+      "distance": 1,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "9828": 3
+      },
+      "critical_write_flow": {
+        "28": "3",
+        "56": "3",
+        "448": "3",
+        "896": "3",
+        "7168": "3",
+        "14336": "3"
+      },
+      "uniform_write_flow": {
+        "28": "1",
+        "672": "1",
+        "1344": "1",
+        "14336": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 0,
+      "arc_b": 15,
+      "k": 5,
+      "n": 17,
+      "distance": 1,
+      "cuts": [
+        8
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "74908": 1,
+        "102988": 1,
+        "117028": 1
+      },
+      "critical_write_flow": {
+        "28": "4",
+        "56": "1",
+        "224": "5",
+        "336": "1",
+        "1792": "5",
+        "2688": "1",
+        "14336": "5",
+        "21504": "1",
+        "57344": "1",
+        "114688": "4"
+      },
+      "uniform_write_flow": {
+        "28": "1/2",
+        "84": "1/2",
+        "168": "1/2",
+        "672": "1/2",
+        "1344": "1/2",
+        "5376": "1/2",
+        "10752": "1/2",
+        "14336": "1/2",
+        "114688": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 0,
+          "arc_b": 15,
+          "k": 5,
+          "n": 17,
+          "distance": 1,
+          "cuts": [
+            6
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 0,
+          "arc_b": 15,
+          "k": 5,
+          "n": 17,
+          "distance": 1,
+          "cuts": [
+            7
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 1,
+      "arc_b": 8,
+      "k": 3,
+      "n": 11,
+      "distance": 2,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "602": 1,
+        "914": 1,
+        "1682": 1
+      },
+      "critical_write_flow": {
+        "42": "1",
+        "56": "1",
+        "168": "1",
+        "224": "2",
+        "336": "1",
+        "1034": "1",
+        "1344": "1",
+        "1792": "2"
+      },
+      "uniform_write_flow": {
+        "112": "1",
+        "896": "1",
+        "1034": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 1,
+      "arc_b": 11,
+      "k": 4,
+      "n": 14,
+      "distance": 2,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "5010": 3
+      },
+      "critical_write_flow": {
+        "112": "3",
+        "168": "3",
+        "1344": "3",
+        "3584": "3",
+        "8202": "3",
+        "14336": "3"
+      },
+      "uniform_write_flow": {
+        "336": "1",
+        "672": "1",
+        "7168": "1",
+        "8202": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 1,
+      "arc_b": 14,
+      "k": 5,
+      "n": 17,
+      "distance": 2,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "37466": 1,
+        "46226": 1,
+        "58514": 1
+      },
+      "critical_write_flow": {
+        "42": "2",
+        "56": "3",
+        "112": "1",
+        "224": "1",
+        "448": "4",
+        "1792": "2",
+        "3584": "2",
+        "5376": "1",
+        "10752": "2",
+        "14336": "1",
+        "43008": "2",
+        "65546": "1",
+        "81922": "1",
+        "86016": "3",
+        "114688": "2"
+      },
+      "uniform_write_flow": {
+        "112": "1",
+        "896": "1",
+        "21504": "1",
+        "43008": "1",
+        "65546": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 1,
+      "arc_b": 17,
+      "k": 6,
+      "n": 20,
+      "distance": 2,
+      "cuts": [
+        9
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "299610": 1,
+        "313650": 1,
+        "861330": 1
+      },
+      "critical_write_flow": {
+        "56": "1/2",
+        "112": "2",
+        "168": "5/2",
+        "336": "5/2",
+        "672": "2",
+        "1344": "5/2",
+        "2688": "5/2",
+        "5376": "2",
+        "10752": "5/2",
+        "21504": "5/2",
+        "28672": "1/2",
+        "43008": "2",
+        "86016": "2",
+        "114688": "2",
+        "172032": "2",
+        "458752": "3",
+        "524298": "4",
+        "655362": "1",
+        "917504": "2"
+      },
+      "uniform_write_flow": {
+        "112": "1",
+        "896": "1",
+        "7168": "1",
+        "172032": "1",
+        "344064": "1",
+        "524298": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 1,
+          "arc_b": 17,
+          "k": 6,
+          "n": 20,
+          "distance": 2,
+          "cuts": [
+            7
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 1,
+          "arc_b": 17,
+          "k": 6,
+          "n": 20,
+          "distance": 2,
+          "cuts": [
+            8
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 2,
+      "arc_b": 7,
+      "k": 3,
+      "n": 11,
+      "distance": 3,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "818": 1,
+        "1174": 1,
+        "1636": 1
+      },
+      "critical_write_flow": {
+        "84": "3",
+        "224": "1",
+        "672": "2",
+        "896": "1",
+        "1282": "3"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "672": "1",
+        "1282": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 2,
+      "arc_b": 10,
+      "k": 4,
+      "n": 14,
+      "distance": 3,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "4902": 1,
+        "5778": 1,
+        "9636": 1
+      },
+      "critical_write_flow": {
+        "84": "4",
+        "112": "1",
+        "448": "1",
+        "672": "3",
+        "1792": "1",
+        "5376": "2",
+        "7168": "1",
+        "10242": "4",
+        "14336": "1"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "672": "1",
+        "5376": "1",
+        "10242": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 2,
+      "arc_b": 13,
+      "k": 5,
+      "n": 17,
+      "distance": 3,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "37670": 1,
+        "40082": 1,
+        "75172": 1
+      },
+      "critical_write_flow": {
+        "84": "5",
+        "112": "1",
+        "224": "1",
+        "672": "3",
+        "2688": "1",
+        "5376": "5",
+        "10752": "2",
+        "43008": "3",
+        "57344": "1",
+        "81922": "5",
+        "114688": "1"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "672": "1",
+        "5376": "1",
+        "43008": "1",
+        "81922": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 2,
+      "arc_b": 16,
+      "k": 6,
+      "n": 20,
+      "distance": 3,
+      "cuts": [
+        10
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "299622": 1,
+        "739620": 1,
+        "861330": 1
+      },
+      "critical_write_flow": {
+        "84": "6",
+        "112": "1",
+        "672": "5",
+        "896": "2",
+        "5376": "5",
+        "7168": "2",
+        "43008": "5",
+        "57344": "2",
+        "344064": "5",
+        "458752": "1",
+        "655362": "6"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "672": "1",
+        "5376": "1",
+        "43008": "1",
+        "344064": "1",
+        "655362": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 2,
+          "arc_b": 16,
+          "k": 6,
+          "n": 20,
+          "distance": 3,
+          "cuts": [
+            8
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 2,
+          "arc_b": 16,
+          "k": 6,
+          "n": 20,
+          "distance": 3,
+          "cuts": [
+            9
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 3,
+      "arc_b": 6,
+      "k": 3,
+      "n": 11,
+      "distance": 4,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "590": 1,
+        "806": 1,
+        "1228": 1
+      },
+      "critical_write_flow": {
+        "14": "2",
+        "168": "1",
+        "224": "3",
+        "1282": "1",
+        "1792": "3"
+      },
+      "uniform_write_flow": {
+        "14": "1",
+        "672": "1",
+        "1344": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 3,
+      "arc_b": 9,
+      "k": 4,
+      "n": 14,
+      "distance": 4,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "12900": 3
+      },
+      "critical_write_flow": {
+        "14": "3",
+        "168": "3",
+        "448": "3",
+        "1792": "3",
+        "7168": "3",
+        "10242": "3"
+      },
+      "uniform_write_flow": {
+        "14": "1",
+        "224": "1",
+        "5376": "1",
+        "10752": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 3,
+      "arc_b": 12,
+      "k": 5,
+      "n": 17,
+      "distance": 4,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "37670": 1,
+        "75556": 1,
+        "103012": 1
+      },
+      "critical_write_flow": {
+        "14": "4",
+        "168": "2",
+        "224": "2",
+        "1344": "4",
+        "1792": "1",
+        "2688": "3",
+        "7168": "1",
+        "14336": "3",
+        "28672": "1",
+        "57344": "2",
+        "65546": "1",
+        "81922": "1",
+        "114688": "3"
+      },
+      "uniform_write_flow": {
+        "14": "1",
+        "224": "1",
+        "5376": "1",
+        "10752": "1",
+        "114688": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 3,
+      "arc_b": 15,
+      "k": 6,
+      "n": 20,
+      "distance": 4,
+      "cuts": [
+        11
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "299622": 1,
+        "599244": 1,
+        "641316": 1
+      },
+      "critical_write_flow": {
+        "14": "5",
+        "42": "2",
+        "224": "4",
+        "448": "2",
+        "896": "1",
+        "1792": "4",
+        "3584": "2",
+        "7168": "1",
+        "14336": "4",
+        "28672": "2",
+        "57344": "1",
+        "114688": "3",
+        "229376": "1",
+        "344064": "1",
+        "458752": "1",
+        "688128": "1",
+        "917504": "5"
+      },
+      "uniform_write_flow": {
+        "14": "1",
+        "224": "1/2",
+        "672": "1/2",
+        "1344": "1/2",
+        "5376": "1/2",
+        "10752": "1/2",
+        "43008": "1/2",
+        "86016": "1/2",
+        "114688": "1/2",
+        "917504": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 3,
+          "arc_b": 15,
+          "k": 6,
+          "n": 20,
+          "distance": 4,
+          "cuts": [
+            9
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 3,
+          "arc_b": 15,
+          "k": 6,
+          "n": 20,
+          "distance": 4,
+          "cuts": [
+            10
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 4,
+      "arc_b": 5,
+      "k": 3,
+      "n": 11,
+      "distance": 5,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "590": 1,
+        "1228": 1,
+        "1682": 1
+      },
+      "critical_write_flow": {
+        "28": "1",
+        "84": "2",
+        "336": "1",
+        "896": "3",
+        "1034": "2",
+        "1282": "1"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "896": "1",
+        "1034": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 4,
+      "arc_b": 8,
+      "k": 4,
+      "n": 14,
+      "distance": 5,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "5010": 1,
+        "7314": 1,
+        "9804": 1
+      },
+      "critical_write_flow": {
+        "14": "1",
+        "28": "1",
+        "84": "3",
+        "448": "2",
+        "896": "2",
+        "3584": "2",
+        "5376": "1",
+        "7168": "1",
+        "8202": "3",
+        "14336": "2"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "896": "1",
+        "7168": "1",
+        "8202": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 4,
+      "arc_b": 11,
+      "k": 5,
+      "n": 17,
+      "distance": 5,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "37778": 2,
+        "74908": 1
+      },
+      "critical_write_flow": {
+        "14": "2",
+        "28": "1",
+        "84": "3",
+        "448": "4",
+        "3584": "5",
+        "5376": "1",
+        "28672": "4",
+        "43008": "2",
+        "65546": "3",
+        "114688": "3"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "896": "1",
+        "21504": "1",
+        "43008": "1",
+        "65546": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 4,
+      "arc_b": 14,
+      "k": 6,
+      "n": 20,
+      "distance": 5,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "299922": 1,
+        "369810": 1,
+        "599628": 1
+      },
+      "critical_write_flow": {
+        "14": "3",
+        "28": "2",
+        "84": "2",
+        "336": "2",
+        "896": "2",
+        "1344": "3",
+        "2688": "4",
+        "7168": "3",
+        "28672": "4",
+        "43008": "1",
+        "114688": "2",
+        "172032": "1",
+        "229376": "2",
+        "344064": "2",
+        "524298": "2",
+        "655362": "1",
+        "917504": "4"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "896": "1",
+        "7168": "1",
+        "172032": "1",
+        "344064": "1",
+        "524298": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 4,
+      "arc_b": 17,
+      "k": 7,
+      "n": 23,
+      "distance": 5,
+      "cuts": [
+        12
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "2396750": 1,
+        "3295634": 1,
+        "4793500": 1
+      },
+      "critical_write_flow": {
+        "84": "7",
+        "448": "1",
+        "896": "5",
+        "1792": "2",
+        "2688": "1",
+        "7168": "5",
+        "14336": "2",
+        "21504": "1",
+        "57344": "5",
+        "114688": "2",
+        "172032": "1",
+        "1376256": "6",
+        "1835008": "1",
+        "2752512": "7",
+        "4194314": "7",
+        "5505024": "1"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "896": "1/2",
+        "2688": "1/2",
+        "5376": "1/2",
+        "21504": "1/2",
+        "43008": "1/2",
+        "172032": "1/2",
+        "344064": "1/2",
+        "458752": "1/2",
+        "3670016": "1",
+        "4194314": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 4,
+          "arc_b": 17,
+          "k": 7,
+          "n": 23,
+          "distance": 5,
+          "cuts": [
+            10
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 4,
+          "arc_b": 17,
+          "k": 7,
+          "n": 23,
+          "distance": 5,
+          "cuts": [
+            11
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 5,
+      "arc_b": 7,
+      "k": 4,
+      "n": 14,
+      "distance": 6,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "6450": 1,
+        "10020": 1,
+        "13458": 1
+      },
+      "critical_write_flow": {
+        "14": "1",
+        "28": "4",
+        "168": "1",
+        "672": "3",
+        "896": "1",
+        "3584": "1",
+        "5376": "3",
+        "10242": "3",
+        "14336": "1"
+      },
+      "uniform_write_flow": {
+        "28": "1",
+        "672": "1",
+        "5376": "1",
+        "10242": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 5,
+      "arc_b": 10,
+      "k": 5,
+      "n": 17,
+      "distance": 6,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "37778": 1,
+        "74932": 1,
+        "80164": 1
+      },
+      "critical_write_flow": {
+        "28": "5",
+        "42": "2",
+        "672": "3",
+        "896": "2",
+        "3584": "1",
+        "5376": "3",
+        "21504": "2",
+        "43008": "5",
+        "81922": "4",
+        "114688": "1"
+      },
+      "uniform_write_flow": {
+        "28": "1",
+        "672": "1",
+        "5376": "1",
+        "43008": "1",
+        "81922": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 5,
+      "arc_b": 13,
+      "k": 6,
+      "n": 20,
+      "distance": 6,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "369810": 1,
+        "411954": 1,
+        "604452": 1
+      },
+      "critical_write_flow": {
+        "14": "1",
+        "28": "6",
+        "672": "6",
+        "2688": "1",
+        "3584": "1",
+        "5376": "6",
+        "14336": "1",
+        "43008": "3",
+        "57344": "2",
+        "344064": "5",
+        "458752": "1",
+        "524298": "1",
+        "655362": "4",
+        "688128": "2"
+      },
+      "uniform_write_flow": {
+        "28": "1",
+        "672": "1",
+        "5376": "1",
+        "43008": "1",
+        "344064": "1",
+        "655362": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 5,
+      "arc_b": 16,
+      "k": 7,
+      "n": 23,
+      "distance": 6,
+      "cuts": [
+        13
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "2397074": 1,
+        "4793524": 1,
+        "5130532": 1
+      },
+      "critical_write_flow": {
+        "28": "7",
+        "42": "2",
+        "672": "5",
+        "896": "2",
+        "1792": "1",
+        "5376": "4",
+        "7168": "3",
+        "14336": "1",
+        "43008": "4",
+        "57344": "3",
+        "114688": "1",
+        "344064": "4",
+        "458752": "3",
+        "2752512": "5",
+        "3670016": "2",
+        "5242882": "6",
+        "7340032": "1"
+      },
+      "uniform_write_flow": {
+        "28": "1",
+        "672": "1",
+        "5376": "1",
+        "43008": "1",
+        "344064": "1",
+        "2752512": "1",
+        "5242882": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 5,
+          "arc_b": 16,
+          "k": 7,
+          "n": 23,
+          "distance": 6,
+          "cuts": [
+            11
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 5,
+          "arc_b": 16,
+          "k": 7,
+          "n": 23,
+          "distance": 6,
+          "cuts": [
+            12
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 6,
+      "arc_b": 6,
+      "k": 4,
+      "n": 14,
+      "distance": 7,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "12900": 3
+      },
+      "critical_write_flow": {
+        "28": "3",
+        "42": "3",
+        "336": "3",
+        "3584": "3",
+        "5376": "3",
+        "10242": "3"
+      },
+      "uniform_write_flow": {
+        "14": "1",
+        "112": "1",
+        "1792": "1",
+        "14336": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 6,
+      "arc_b": 9,
+      "k": 5,
+      "n": 17,
+      "distance": 7,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "37478": 1,
+        "75340": 1,
+        "104740": 1
+      },
+      "critical_write_flow": {
+        "14": "4",
+        "56": "2",
+        "112": "3",
+        "336": "2",
+        "1792": "1",
+        "5376": "3",
+        "10752": "4",
+        "21504": "2",
+        "43008": "2",
+        "81922": "2",
+        "114688": "3"
+      },
+      "uniform_write_flow": {
+        "14": "1",
+        "112": "1",
+        "1792": "1",
+        "43008": "1",
+        "86016": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 6,
+      "arc_b": 12,
+      "k": 6,
+      "n": 20,
+      "distance": 7,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "301362": 1,
+        "599628": 1,
+        "837924": 1
+      },
+      "critical_write_flow": {
+        "14": "6",
+        "112": "6",
+        "336": "1",
+        "1792": "5",
+        "3584": "2",
+        "14336": "4",
+        "57344": "3",
+        "86016": "3",
+        "229376": "3",
+        "344064": "1",
+        "524298": "1",
+        "917504": "5"
+      },
+      "uniform_write_flow": {
+        "14": "1",
+        "112": "1",
+        "1792": "1",
+        "43008": "1",
+        "86016": "1",
+        "917504": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 6,
+      "arc_b": 15,
+      "k": 7,
+      "n": 23,
+      "distance": 7,
+      "cuts": [
+        14
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "2396978": 1,
+        "4793956": 1,
+        "6703396": 1
+      },
+      "critical_write_flow": {
+        "14": "2",
+        "42": "5",
+        "56": "1",
+        "84": "5",
+        "336": "2",
+        "1344": "1",
+        "1792": "3",
+        "5376": "1",
+        "7168": "3",
+        "10752": "4",
+        "43008": "1",
+        "57344": "3",
+        "86016": "4",
+        "344064": "1",
+        "458752": "3",
+        "688128": "4",
+        "917504": "1",
+        "1835008": "2",
+        "3670016": "1",
+        "4194314": "1",
+        "7340032": "6"
+      },
+      "uniform_write_flow": {
+        "14": "1",
+        "112": "1",
+        "1792": "1",
+        "14336": "1",
+        "114688": "1",
+        "917504": "1",
+        "7340032": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 6,
+          "arc_b": 15,
+          "k": 7,
+          "n": 23,
+          "distance": 7,
+          "cuts": [
+            12
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 6,
+          "arc_b": 15,
+          "k": 7,
+          "n": 23,
+          "distance": 7,
+          "cuts": [
+            13
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 7,
+      "arc_b": 8,
+      "k": 5,
+      "n": 17,
+      "distance": 8,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "37490": 1,
+        "75364": 1,
+        "107666": 1
+      },
+      "critical_write_flow": {
+        "14": "2",
+        "56": "1",
+        "84": "4",
+        "168": "1",
+        "224": "1",
+        "672": "2",
+        "2688": "2",
+        "3584": "1",
+        "21504": "4",
+        "43008": "4",
+        "57344": "1",
+        "65546": "3",
+        "86016": "2"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "672": "1",
+        "21504": "1",
+        "43008": "1",
+        "65546": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 7,
+      "arc_b": 11,
+      "k": 6,
+      "n": 20,
+      "distance": 8,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "302226": 1,
+        "369810": 1,
+        "627300": 1
+      },
+      "critical_write_flow": {
+        "14": "2",
+        "28": "3",
+        "84": "2",
+        "112": "1",
+        "224": "4",
+        "672": "2",
+        "7168": "2",
+        "10752": "5",
+        "21504": "4",
+        "57344": "2",
+        "229376": "3",
+        "344064": "2",
+        "458752": "1",
+        "524298": "3",
+        "655362": "1",
+        "917504": "3"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "672": "1",
+        "7168": "1",
+        "57344": "1",
+        "458752": "1",
+        "524298": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 7,
+      "arc_b": 14,
+      "k": 7,
+      "n": 23,
+      "distance": 8,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "2396762": 1,
+        "3744914": 1,
+        "4821604": 1
+      },
+      "critical_write_flow": {
+        "14": "1",
+        "28": "4",
+        "84": "3",
+        "224": "4",
+        "672": "4",
+        "3584": "3",
+        "21504": "5",
+        "28672": "2",
+        "43008": "6",
+        "114688": "1",
+        "344064": "1",
+        "458752": "5",
+        "1835008": "2",
+        "2752512": "4",
+        "3670016": "1",
+        "4194314": "3",
+        "5242882": "3",
+        "7340032": "2"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "672": "1",
+        "21504": "1",
+        "43008": "1",
+        "458752": "1",
+        "3670016": "1",
+        "4194314": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 7,
+      "arc_b": 17,
+      "k": 8,
+      "n": 26,
+      "distance": 8,
+      "cuts": [
+        15
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "19173990": 1,
+        "20073618": 1,
+        "38347980": 1
+      },
+      "critical_write_flow": {
+        "28": "2",
+        "84": "6",
+        "112": "1",
+        "224": "1",
+        "672": "7",
+        "3584": "1/2",
+        "7168": "7/2",
+        "10752": "3/2",
+        "21504": "4",
+        "43008": "7/2",
+        "86016": "3/2",
+        "172032": "4",
+        "344064": "7/2",
+        "688128": "3/2",
+        "1376256": "4",
+        "1835008": "1/2",
+        "2752512": "7/2",
+        "3670016": "7/2",
+        "5505024": "1",
+        "14680064": "1",
+        "29360128": "7",
+        "33554442": "7",
+        "41943042": "1",
+        "58720256": "1"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "672": "1",
+        "7168": "1/2",
+        "21504": "1/2",
+        "43008": "1/2",
+        "172032": "1/2",
+        "344064": "1/2",
+        "1376256": "1/2",
+        "2752512": "1/2",
+        "3670016": "1/2",
+        "29360128": "1",
+        "33554442": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 7,
+          "arc_b": 17,
+          "k": 8,
+          "n": 26,
+          "distance": 8,
+          "cuts": [
+            13
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 7,
+          "arc_b": 17,
+          "k": 8,
+          "n": 26,
+          "distance": 8,
+          "cuts": [
+            14
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 8,
+      "arc_b": 10,
+      "k": 6,
+      "n": 20,
+      "distance": 9,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "314514": 1,
+        "599244": 1,
+        "837924": 1
+      },
+      "critical_write_flow": {
+        "14": "1",
+        "28": "5",
+        "112": "2",
+        "168": "1",
+        "224": "4",
+        "448": "1",
+        "5376": "6",
+        "14336": "1",
+        "28672": "1",
+        "43008": "5",
+        "229376": "1",
+        "344064": "5",
+        "458752": "1",
+        "655362": "6"
+      },
+      "uniform_write_flow": {
+        "28": "1",
+        "224": "1",
+        "5376": "1",
+        "43008": "1",
+        "344064": "1",
+        "655362": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 8,
+      "arc_b": 13,
+      "k": 7,
+      "n": 23,
+      "distance": 9,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "2509970": 1,
+        "4793524": 1,
+        "5019940": 1
+      },
+      "critical_write_flow": {
+        "28": "6",
+        "42": "3",
+        "84": "1",
+        "224": "4",
+        "448": "3",
+        "1344": "1",
+        "5376": "4",
+        "7168": "2",
+        "28672": "2",
+        "43008": "5",
+        "114688": "2",
+        "172032": "1",
+        "344064": "4",
+        "458752": "2",
+        "1835008": "1",
+        "2752512": "5",
+        "3670016": "1",
+        "5242882": "5",
+        "7340032": "2"
+      },
+      "uniform_write_flow": {
+        "28": "1",
+        "224": "1",
+        "5376": "1",
+        "43008": "1",
+        "344064": "1",
+        "2752512": "1",
+        "5242882": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 8,
+      "arc_b": 16,
+      "k": 8,
+      "n": 26,
+      "distance": 9,
+      "cuts": [
+        16
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "26365074": 1,
+        "38347932": 1,
+        "40147236": 1
+      },
+      "critical_write_flow": {
+        "42": "3",
+        "84": "8",
+        "168": "6",
+        "448": "2",
+        "5376": "7",
+        "7168": "1/2",
+        "21504": "1/2",
+        "28672": "1",
+        "43008": "15/2",
+        "172032": "1/2",
+        "229376": "1",
+        "344064": "15/2",
+        "1376256": "1/2",
+        "1835008": "1",
+        "2752512": "15/2",
+        "3670016": "1/2",
+        "14680064": "1",
+        "22020096": "7",
+        "41943042": "6",
+        "58720256": "2"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "168": "1",
+        "5376": "1",
+        "43008": "1",
+        "344064": "1",
+        "2752512": "1",
+        "22020096": "1",
+        "41943042": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 8,
+          "arc_b": 16,
+          "k": 8,
+          "n": 26,
+          "distance": 9,
+          "cuts": [
+            14
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 8,
+          "arc_b": 16,
+          "k": 8,
+          "n": 26,
+          "distance": 9,
+          "cuts": [
+            15
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 9,
+      "arc_b": 9,
+      "k": 6,
+      "n": 20,
+      "distance": 10,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "301350": 1,
+        "627492": 2
+      },
+      "critical_write_flow": {
+        "14": "4",
+        "28": "1",
+        "56": "1",
+        "112": "4",
+        "336": "2",
+        "448": "2",
+        "896": "1",
+        "2688": "5",
+        "28672": "5",
+        "43008": "2",
+        "172032": "1",
+        "229376": "2",
+        "344064": "3",
+        "458752": "1",
+        "524298": "2",
+        "655362": "1",
+        "917504": "3"
+      },
+      "uniform_write_flow": {
+        "14": "1",
+        "112": "1",
+        "896": "1",
+        "43008": "1",
+        "86016": "1",
+        "917504": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 9,
+      "arc_b": 12,
+      "k": 7,
+      "n": 23,
+      "distance": 10,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "2396966": 1,
+        "2509094": 2
+      },
+      "critical_write_flow": {
+        "56": "3",
+        "84": "6",
+        "224": "3",
+        "896": "6",
+        "10752": "2",
+        "14336": "5",
+        "28672": "2",
+        "86016": "1",
+        "114688": "1",
+        "229376": "1",
+        "344064": "3",
+        "688128": "6",
+        "1376256": "3",
+        "3670016": "3",
+        "4194314": "6",
+        "7340032": "3"
+      },
+      "uniform_write_flow": {
+        "42": "1",
+        "84": "1",
+        "896": "1",
+        "14336": "1",
+        "114688": "1",
+        "2752512": "1",
+        "5505024": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 9,
+      "arc_b": 15,
+      "k": 8,
+      "n": 26,
+      "distance": 10,
+      "cuts": [
+        17
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "19173978": 1,
+        "38353188": 1,
+        "53627172": 1
+      },
+      "critical_write_flow": {
+        "42": "7",
+        "84": "8",
+        "168": "1",
+        "336": "1",
+        "896": "7",
+        "2688": "2",
+        "14336": "4",
+        "43008": "2",
+        "57344": "3",
+        "86016": "4",
+        "344064": "2",
+        "458752": "3",
+        "688128": "4",
+        "2752512": "2",
+        "3670016": "3",
+        "5505024": "4",
+        "14680064": "3",
+        "22020096": "2",
+        "33554442": "1",
+        "41943042": "1",
+        "58720256": "6"
+      },
+      "uniform_write_flow": {
+        "14": "1",
+        "336": "1",
+        "672": "1",
+        "14336": "1",
+        "114688": "1",
+        "917504": "1",
+        "22020096": "1",
+        "44040192": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 9,
+          "arc_b": 15,
+          "k": 8,
+          "n": 26,
+          "distance": 10,
+          "cuts": [
+            15
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 9,
+          "arc_b": 15,
+          "k": 8,
+          "n": 26,
+          "distance": 10,
+          "cuts": [
+            16
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 10,
+      "arc_b": 11,
+      "k": 7,
+      "n": 23,
+      "distance": 11,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "2396786": 1,
+        "2958482": 1,
+        "4797220": 1
+      },
+      "critical_write_flow": {
+        "14": "1",
+        "28": "3",
+        "42": "1",
+        "84": "4",
+        "224": "2",
+        "448": "2",
+        "672": "4",
+        "1792": "3",
+        "5376": "3",
+        "21504": "2",
+        "28672": "2",
+        "57344": "2",
+        "114688": "3",
+        "172032": "3",
+        "458752": "4",
+        "1835008": "3",
+        "2752512": "2",
+        "3670016": "2",
+        "4194314": "4",
+        "5242882": "1",
+        "7340032": "3"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "672": "1",
+        "5376": "1",
+        "57344": "1",
+        "458752": "1",
+        "3670016": "1",
+        "4194314": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 10,
+      "arc_b": 14,
+      "k": 8,
+      "n": 26,
+      "distance": 11,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "23667858": 1,
+        "40145484": 1,
+        "55125138": 1
+      },
+      "critical_write_flow": {
+        "14": "1",
+        "28": "1",
+        "42": "6",
+        "84": "7",
+        "224": "2",
+        "672": "2",
+        "896": "4",
+        "1792": "3",
+        "5376": "3",
+        "21504": "2",
+        "28672": "4",
+        "57344": "4",
+        "229376": "5",
+        "458752": "2",
+        "917504": "3",
+        "1376256": "1",
+        "3670016": "5",
+        "5505024": "3",
+        "14680064": "3",
+        "22020096": "1",
+        "33554442": "1",
+        "58720256": "7"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "672": "1",
+        "5376": "1",
+        "57344": "1",
+        "458752": "1",
+        "3670016": "1",
+        "29360128": "1",
+        "33554442": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 10,
+      "arc_b": 17,
+      "k": 9,
+      "n": 29,
+      "distance": 11,
+      "cuts": [
+        18
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "153391922": 1,
+        "160588946": 1,
+        "306783844": 1
+      },
+      "critical_write_flow": {
+        "14": "1",
+        "28": "1",
+        "84": "8",
+        "168": "1",
+        "672": "8",
+        "896": "1",
+        "1344": "2",
+        "5376": "7",
+        "28672": "3",
+        "57344": "3/2",
+        "114688": "4",
+        "172032": "9/2",
+        "344064": "3/2",
+        "917504": "4",
+        "1376256": "9/2",
+        "2752512": "3/2",
+        "7340032": "4",
+        "11010048": "9/2",
+        "22020096": "3/2",
+        "88080384": "9/2",
+        "117440512": "3",
+        "176160768": "11/2",
+        "234881024": "3/2",
+        "268435466": "8",
+        "469762048": "2"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "672": "1",
+        "5376": "1",
+        "57344": "1",
+        "458752": "1",
+        "3670016": "1",
+        "29360128": "1",
+        "234881024": "1",
+        "268435466": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 10,
+          "arc_b": 17,
+          "k": 9,
+          "n": 29,
+          "distance": 11,
+          "cuts": [
+            16
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 10,
+          "arc_b": 17,
+          "k": 9,
+          "n": 29,
+          "distance": 11,
+          "cuts": [
+            17
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 11,
+      "arc_b": 13,
+      "k": 8,
+      "n": 26,
+      "distance": 12,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "20522130": 1,
+        "38348196": 1,
+        "40257828": 1
+      },
+      "critical_write_flow": {
+        "28": "3",
+        "42": "5",
+        "84": "5",
+        "112": "1",
+        "168": "2",
+        "1344": "4",
+        "1792": "4",
+        "2688": "6",
+        "43008": "3",
+        "57344": "5",
+        "229376": "2",
+        "344064": "4",
+        "1376256": "2",
+        "2752512": "7",
+        "3670016": "1",
+        "5505024": "3",
+        "22020096": "3",
+        "29360128": "2",
+        "41943042": "4",
+        "58720256": "4"
+      },
+      "uniform_write_flow": {
+        "28": "1",
+        "224": "1",
+        "1792": "1",
+        "43008": "1",
+        "344064": "1",
+        "2752512": "1",
+        "22020096": "1",
+        "41943042": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 11,
+      "arc_b": 16,
+      "k": 9,
+      "n": 29,
+      "distance": 12,
+      "cuts": [
+        19
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "160588946": 1,
+        "306785572": 1,
+        "421841188": 1
+      },
+      "critical_write_flow": {
+        "28": "4",
+        "42": "1",
+        "56": "1",
+        "84": "5",
+        "168": "3",
+        "672": "4",
+        "896": "3",
+        "1344": "6",
+        "3584": "3",
+        "10752": "1",
+        "43008": "5",
+        "57344": "1",
+        "114688": "1",
+        "172032": "2",
+        "344064": "7",
+        "688128": "1",
+        "1376256": "2",
+        "2752512": "7",
+        "5505024": "1",
+        "11010048": "2",
+        "22020096": "7",
+        "44040192": "1",
+        "88080384": "2",
+        "176160768": "7",
+        "234881024": "2",
+        "268435466": "2",
+        "335544322": "7"
+      },
+      "uniform_write_flow": {
+        "28": "1",
+        "672": "1",
+        "1344": "1",
+        "43008": "1",
+        "344064": "1",
+        "2752512": "1",
+        "22020096": "1",
+        "176160768": "1",
+        "335544322": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 11,
+          "arc_b": 16,
+          "k": 9,
+          "n": 29,
+          "distance": 12,
+          "cuts": [
+            17
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 11,
+          "arc_b": 16,
+          "k": 9,
+          "n": 29,
+          "distance": 12,
+          "cuts": [
+            18
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 12,
+      "arc_b": 12,
+      "k": 8,
+      "n": 26,
+      "distance": 13,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "19175718": 1,
+        "19286322": 1,
+        "38376036": 1
+      },
+      "critical_write_flow": {
+        "28": "2",
+        "42": "5",
+        "84": "6",
+        "168": "2",
+        "336": "1",
+        "448": "2",
+        "896": "1",
+        "2688": "5",
+        "3584": "3",
+        "5376": "4",
+        "21504": "3",
+        "86016": "1",
+        "344064": "5",
+        "688128": "8",
+        "1376256": "3",
+        "2752512": "1",
+        "7340032": "7",
+        "29360128": "2",
+        "33554442": "1",
+        "41943042": "2",
+        "58720256": "6"
+      },
+      "uniform_write_flow": {
+        "42": "1",
+        "84": "1",
+        "896": "1",
+        "7168": "1",
+        "344064": "1",
+        "688128": "1",
+        "22020096": "1",
+        "44040192": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 12,
+      "arc_b": 15,
+      "k": 9,
+      "n": 29,
+      "distance": 13,
+      "cuts": [
+        20
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "153405842": 1,
+        "306811468": 1,
+        "429017380": 1
+      },
+      "critical_write_flow": {
+        "28": "1",
+        "42": "8",
+        "84": "8",
+        "112": "1",
+        "672": "1",
+        "896": "8",
+        "1344": "1",
+        "2688": "1",
+        "7168": "8",
+        "21504": "2",
+        "114688": "3",
+        "229376": "3/2",
+        "344064": "4",
+        "688128": "9/2",
+        "1376256": "3/2",
+        "2752512": "4",
+        "5505024": "9/2",
+        "11010048": "3/2",
+        "22020096": "4",
+        "44040192": "9/2",
+        "88080384": "3/2",
+        "117440512": "3/2",
+        "176160768": "4",
+        "268435466": "1",
+        "335544322": "1",
+        "352321536": "2",
+        "469762048": "5"
+      },
+      "uniform_write_flow": {
+        "14": "1",
+        "112": "1",
+        "2688": "1",
+        "5376": "1",
+        "114688": "1/2",
+        "344064": "1/2",
+        "688128": "1/2",
+        "2752512": "1/2",
+        "5505024": "1/2",
+        "22020096": "1/2",
+        "44040192": "1/2",
+        "176160768": "1/2",
+        "352321536": "1/2",
+        "469762048": "1/2"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 12,
+          "arc_b": 15,
+          "k": 9,
+          "n": 29,
+          "distance": 13,
+          "cuts": [
+            18
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 12,
+          "arc_b": 15,
+          "k": 9,
+          "n": 29,
+          "distance": 13,
+          "cuts": [
+            19
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 13,
+      "arc_b": 14,
+      "k": 9,
+      "n": 29,
+      "distance": 14,
+      "cuts": [],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "157885586": 1,
+        "306784036": 1,
+        "421827148": 1
+      },
+      "critical_write_flow": {
+        "14": "4",
+        "28": "2",
+        "84": "3",
+        "112": "5",
+        "224": "2",
+        "672": "3",
+        "896": "5",
+        "5376": "5",
+        "7168": "4",
+        "10752": "1",
+        "14336": "1",
+        "43008": "5",
+        "172032": "2",
+        "229376": "3",
+        "458752": "6",
+        "1835008": "2",
+        "5505024": "2",
+        "11010048": "7",
+        "22020096": "7",
+        "44040192": "2",
+        "117440512": "2",
+        "176160768": "2",
+        "234881024": "4",
+        "268435466": "4",
+        "335544322": "2",
+        "469762048": "3"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "672": "1",
+        "5376": "1",
+        "43008": "1",
+        "458752": "1",
+        "11010048": "1",
+        "22020096": "1",
+        "234881024": "1",
+        "268435466": "1"
+      },
+      "previous_attempts": []
+    },
+    {
+      "arc_a": 13,
+      "arc_b": 17,
+      "k": 10,
+      "n": 32,
+      "distance": 14,
+      "cuts": [
+        21
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "1284711570": 1,
+        "2454270540": 1,
+        "3374618916": 1
+      },
+      "critical_write_flow": {
+        "42": "1",
+        "84": "10",
+        "112": "1",
+        "168": "1",
+        "672": "8",
+        "896": "1",
+        "2688": "1",
+        "3584": "1",
+        "5376": "10",
+        "43008": "9",
+        "172032": "1",
+        "458752": "9",
+        "688128": "1",
+        "1376256": "1",
+        "3670016": "9",
+        "5505024": "1",
+        "11010048": "1",
+        "29360128": "9",
+        "44040192": "1",
+        "88080384": "1",
+        "117440512": "1",
+        "704643072": "9",
+        "939524096": "1",
+        "1409286144": "9",
+        "1879048192": "1",
+        "2147483658": "9",
+        "2684354562": "1"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "672": "1",
+        "5376": "1",
+        "43008": "1",
+        "458752": "1/2",
+        "1376256": "1/2",
+        "2752512": "1/2",
+        "11010048": "1/2",
+        "22020096": "1/2",
+        "88080384": "1/2",
+        "176160768": "1/2",
+        "234881024": "1/2",
+        "1879048192": "1",
+        "2147483658": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 13,
+          "arc_b": 17,
+          "k": 10,
+          "n": 32,
+          "distance": 14,
+          "cuts": [
+            19
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 13,
+          "arc_b": 17,
+          "k": 10,
+          "n": 32,
+          "distance": 14,
+          "cuts": [
+            20
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 14,
+      "arc_b": 16,
+      "k": 10,
+      "n": 32,
+      "distance": 15,
+      "cuts": [
+        22
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "1227302034": 1,
+        "2454267300": 1,
+        "2626832676": 1
+      },
+      "critical_write_flow": {
+        "28": "1",
+        "42": "4",
+        "84": "9",
+        "168": "6",
+        "336": "1",
+        "448": "2",
+        "896": "2",
+        "3584": "5",
+        "5376": "5",
+        "10752": "5",
+        "14336": "1",
+        "28672": "4",
+        "86016": "2",
+        "344064": "5",
+        "458752": "3",
+        "917504": "1",
+        "1835008": "1",
+        "2752512": "6",
+        "3670016": "3",
+        "5505024": "1",
+        "14680064": "1",
+        "22020096": "6",
+        "29360128": "3",
+        "44040192": "1",
+        "117440512": "1",
+        "176160768": "6",
+        "352321536": "1",
+        "704643072": "3",
+        "1409286144": "9",
+        "2147483658": "1",
+        "2684354562": "6",
+        "2818572288": "1",
+        "3758096384": "2"
+      },
+      "uniform_write_flow": {
+        "28": "1",
+        "224": "1",
+        "5376": "1",
+        "10752": "1",
+        "344064": "1",
+        "2752512": "1",
+        "22020096": "1",
+        "176160768": "1",
+        "1409286144": "1",
+        "2684354562": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 14,
+          "arc_b": 16,
+          "k": 10,
+          "n": 32,
+          "distance": 15,
+          "cuts": [
+            20
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 14,
+          "arc_b": 16,
+          "k": 10,
+          "n": 32,
+          "distance": 15,
+          "cuts": [
+            21
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 15,
+      "arc_b": 15,
+      "k": 10,
+      "n": 32,
+      "distance": 16,
+      "cuts": [
+        7,
+        23
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "1227245862": 1,
+        "1284656274": 1,
+        "2454491724": 1
+      },
+      "critical_write_flow": {
+        "14": "9/2",
+        "42": "7/2",
+        "56": "2",
+        "84": "11/2",
+        "336": "7/2",
+        "448": "2",
+        "672": "11/2",
+        "2688": "7/2",
+        "3584": "2",
+        "5376": "11/2",
+        "21504": "7/2",
+        "28672": "2",
+        "43008": "9/2",
+        "57344": "9/2",
+        "172032": "1",
+        "688128": "1",
+        "917504": "8",
+        "1835008": "1",
+        "5505024": "1",
+        "7340032": "9",
+        "11010048": "1",
+        "44040192": "1",
+        "58720256": "9",
+        "88080384": "1",
+        "352321536": "1",
+        "704643072": "1",
+        "939524096": "1",
+        "1409286144": "9",
+        "2147483658": "1",
+        "2684354562": "1",
+        "2818572288": "8",
+        "3758096384": "1"
+      },
+      "uniform_write_flow": {
+        "14": "1",
+        "112": "1",
+        "896": "1",
+        "7168": "1",
+        "57344": "1",
+        "917504": "1/2",
+        "2752512": "1/2",
+        "5505024": "1/2",
+        "22020096": "1/2",
+        "44040192": "1/2",
+        "176160768": "1/2",
+        "352321536": "1/2",
+        "1409286144": "1/2",
+        "2818572288": "1/2",
+        "3758096384": "1/2"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 15,
+          "arc_b": 15,
+          "k": 10,
+          "n": 32,
+          "distance": 16,
+          "cuts": [
+            5,
+            21
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 15,
+          "arc_b": 15,
+          "k": 10,
+          "n": 32,
+          "distance": 16,
+          "cuts": [
+            5,
+            22
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 15,
+          "arc_b": 15,
+          "k": 10,
+          "n": 32,
+          "distance": 16,
+          "cuts": [
+            5,
+            23
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 15,
+          "arc_b": 15,
+          "k": 10,
+          "n": 32,
+          "distance": 16,
+          "cuts": [
+            6,
+            21
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 15,
+          "arc_b": 15,
+          "k": 10,
+          "n": 32,
+          "distance": 16,
+          "cuts": [
+            6,
+            22
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 15,
+          "arc_b": 15,
+          "k": 10,
+          "n": 32,
+          "distance": 16,
+          "cuts": [
+            6,
+            23
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 15,
+          "arc_b": 15,
+          "k": 10,
+          "n": 32,
+          "distance": 16,
+          "cuts": [
+            7,
+            21
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 15,
+          "arc_b": 15,
+          "k": 10,
+          "n": 32,
+          "distance": 16,
+          "cuts": [
+            7,
+            22
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    },
+    {
+      "arc_a": 16,
+      "arc_b": 17,
+      "k": 11,
+      "n": 35,
+      "distance": 17,
+      "cuts": [
+        7,
+        24
+      ],
+      "pure_status": 0,
+      "mode": "periodic flow",
+      "critical_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "read_counts": {
+        "10277692562": 1,
+        "19634166052": 1,
+        "26996937292": 1
+      },
+      "critical_write_flow": {
+        "14": "1",
+        "28": "1",
+        "56": "1",
+        "84": "9",
+        "112": "1",
+        "224": "1",
+        "448": "1",
+        "672": "9",
+        "896": "1",
+        "1792": "1",
+        "3584": "1",
+        "5376": "9",
+        "21504": "1",
+        "28672": "1",
+        "43008": "11",
+        "344064": "11",
+        "3670016": "11/2",
+        "5505024": "1",
+        "11010048": "11/2",
+        "22020096": "11/2",
+        "44040192": "1",
+        "88080384": "11/2",
+        "176160768": "11/2",
+        "352321536": "1",
+        "704643072": "11/2",
+        "939524096": "1",
+        "1409286144": "11/2",
+        "3758096384": "1",
+        "5637144576": "9/2",
+        "11274289152": "9/2",
+        "15032385536": "13/2",
+        "17179869194": "9",
+        "21474836482": "2"
+      },
+      "uniform_write_flow": {
+        "84": "1",
+        "672": "1",
+        "5376": "1",
+        "43008": "1",
+        "344064": "1",
+        "3670016": "1/2",
+        "11010048": "1/2",
+        "22020096": "1/2",
+        "88080384": "1/2",
+        "176160768": "1/2",
+        "704643072": "1/2",
+        "1409286144": "1/2",
+        "1879048192": "1/2",
+        "15032385536": "1",
+        "17179869194": "1"
+      },
+      "previous_attempts": [
+        {
+          "arc_a": 16,
+          "arc_b": 17,
+          "k": 11,
+          "n": 35,
+          "distance": 17,
+          "cuts": [
+            5,
+            22
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 16,
+          "arc_b": 17,
+          "k": 11,
+          "n": 35,
+          "distance": 17,
+          "cuts": [
+            5,
+            23
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 16,
+          "arc_b": 17,
+          "k": 11,
+          "n": 35,
+          "distance": 17,
+          "cuts": [
+            5,
+            24
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 16,
+          "arc_b": 17,
+          "k": 11,
+          "n": 35,
+          "distance": 17,
+          "cuts": [
+            6,
+            22
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 16,
+          "arc_b": 17,
+          "k": 11,
+          "n": 35,
+          "distance": 17,
+          "cuts": [
+            6,
+            23
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 16,
+          "arc_b": 17,
+          "k": 11,
+          "n": 35,
+          "distance": 17,
+          "cuts": [
+            6,
+            24
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 16,
+          "arc_b": 17,
+          "k": 11,
+          "n": 35,
+          "distance": 17,
+          "cuts": [
+            7,
+            22
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        },
+        {
+          "arc_a": 16,
+          "arc_b": 17,
+          "k": 11,
+          "n": 35,
+          "distance": 17,
+          "cuts": [
+            7,
+            23
+          ],
+          "pure_status": 0,
+          "mode": "periodic flow",
+          "critical_status": 2,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+        }
+      ]
+    }
+  ]
+}

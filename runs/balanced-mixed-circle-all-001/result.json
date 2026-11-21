@@ -1,0 +1,109 @@
+{
+  "records": [
+    {
+      "r": 5,
+      "n": 24,
+      "load": "1/4",
+      "representatives": 12,
+      "case_counts": {
+        "close": 5,
+        "buffered": 5,
+        "overlapping": 2
+      }
+    },
+    {
+      "r": 6,
+      "n": 35,
+      "load": "11/56",
+      "representatives": 17,
+      "case_counts": {
+        "close": 6,
+        "buffered": 8,
+        "overlapping": 3
+      }
+    },
+    {
+      "r": 7,
+      "n": 48,
+      "load": "13/80",
+      "representatives": 24,
+      "case_counts": {
+        "close": 7,
+        "buffered": 13,
+        "overlapping": 4
+      }
+    },
+    {
+      "r": 8,
+      "n": 63,
+      "load": "5/36",
+      "representatives": 31,
+      "case_counts": {
+        "close": 8,
+        "buffered": 18,
+        "overlapping": 5
+      }
+    },
+    {
+      "r": 9,
+      "n": 80,
+      "load": "17/140",
+      "representatives": 40,
+      "case_counts": {
+        "close": 9,
+        "buffered": 25,
+        "overlapping": 6
+      }
+    },
+    {
+      "r": 10,
+      "n": 99,
+      "load": "19/176",
+      "representatives": 49,
+      "case_counts": {
+        "close": 10,
+        "buffered": 32,
+        "overlapping": 7
+      }
+    },
+    {
+      "r": 12,
+      "n": 143,
+      "load": "23/260",
+      "representatives": 71,
+      "case_counts": {
+        "close": 12,
+        "buffered": 50,
+        "overlapping": 9
+      }
+    },
+    {
+      "r": 16,
+      "n": 255,
+      "load": "31/476",
+      "representatives": 127,
+      "case_counts": {
+        "close": 16,
+        "buffered": 98,
+        "overlapping": 13
+      }
+    },
+    {
+      "r": 20,
+      "n": 399,
+      "load": "13/252",
+      "representatives": 199,
+      "case_counts": {
+        "close": 20,
+        "buffered": 162,
+        "overlapping": 17
+      }
+    }
+  ],
+  "sources_sha256": {
+    "balanced_mixed_circle_all.py": "aee53c577f5440011a46870ab942773fd3ac831c151ad2e1fe4f3c1b35eddeb9",
+    "balanced_mixed_circle_short_arc.py": "b7f3bc809ebe5e312b16d6fa4911c1e64bd4822e7182bdadc77d47c3aec81cc1",
+    "balanced_circle.py": "b7624792b496b11136f4ea9106bb5e8e558f317d9bc5999f25b18521f033cbcf"
+  },
+  "full_lean_formalization": false
+}

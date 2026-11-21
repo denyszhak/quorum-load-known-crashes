@@ -1,0 +1,110 @@
+{
+  "source_sha256": "790192962687f683781011e7d0949eb7814c8338dfb4f68176a05a6327729da9",
+  "cases": [
+    {
+      "f": 1,
+      "k": 2,
+      "n": 4,
+      "file": "f1-k2.json",
+      "witnesses": 2,
+      "coverage": "all cyclic exact-f failure classes"
+    },
+    {
+      "f": 1,
+      "k": 3,
+      "n": 6,
+      "file": "f1-k3.json",
+      "witnesses": 2,
+      "coverage": "all cyclic exact-f failure classes"
+    },
+    {
+      "f": 1,
+      "k": 5,
+      "n": 10,
+      "file": "f1-k5.json",
+      "witnesses": 2,
+      "coverage": "all cyclic exact-f failure classes"
+    },
+    {
+      "f": 2,
+      "k": 5,
+      "n": 15,
+      "file": "f2-k5.json",
+      "witnesses": 9,
+      "coverage": "all cyclic exact-f failure classes"
+    },
+    {
+      "f": 2,
+      "k": 7,
+      "n": 21,
+      "file": "f2-k7.json",
+      "witnesses": 12,
+      "coverage": "all cyclic exact-f failure classes"
+    },
+    {
+      "f": 3,
+      "k": 10,
+      "n": 40,
+      "file": "f3-k10.json",
+      "witnesses": 250,
+      "coverage": "all cyclic exact-f failure classes"
+    },
+    {
+      "f": 3,
+      "k": 11,
+      "n": 44,
+      "file": "f3-k11.json",
+      "witnesses": 304,
+      "coverage": "all cyclic exact-f failure classes"
+    },
+    {
+      "f": 3,
+      "k": 15,
+      "n": 60,
+      "file": "f3-k15.json",
+      "witnesses": 574,
+      "coverage": "all cyclic exact-f failure classes"
+    },
+    {
+      "f": 3,
+      "k": 25,
+      "n": 100,
+      "file": "f3-k25.json",
+      "witnesses": 1620,
+      "coverage": "all cyclic exact-f failure classes"
+    },
+    {
+      "f": 4,
+      "k": 17,
+      "n": 85,
+      "file": "f4-k17.json",
+      "witnesses": 42,
+      "coverage": "selected exact-f failure sets"
+    },
+    {
+      "f": 5,
+      "k": 26,
+      "n": 156,
+      "file": "f5-k26.json",
+      "witnesses": 44,
+      "coverage": "selected exact-f failure sets"
+    },
+    {
+      "f": 6,
+      "k": 37,
+      "n": 259,
+      "file": "f6-k37.json",
+      "witnesses": 46,
+      "coverage": "selected exact-f failure sets"
+    },
+    {
+      "f": 8,
+      "k": 65,
+      "n": 585,
+      "file": "f8-k65.json",
+      "witnesses": 50,
+      "coverage": "selected exact-f failure sets"
+    }
+  ],
+  "scope": "Finite implementation controls for the written arbitrary-f theorem; no Lean or originality claim."
+}

@@ -1,0 +1,131 @@
+{
+  "source_sha256": "24af4378ef588b640fc186f8a5c10f7fcbf25ddd35aef05d7d16a07f7f23f619",
+  "cases": [
+    {
+      "n": 13,
+      "witnesses": 81,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 15,
+      "witnesses": 108,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 16,
+      "witnesses": 123,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 18,
+      "witnesses": 156,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 19,
+      "witnesses": 174,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 21,
+      "witnesses": 213,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 22,
+      "witnesses": 234,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 24,
+      "witnesses": 279,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 25,
+      "witnesses": 303,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 27,
+      "witnesses": 354,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 28,
+      "witnesses": 381,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 30,
+      "witnesses": 438,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 31,
+      "witnesses": 468,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 33,
+      "witnesses": 531,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 34,
+      "witnesses": 564,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 36,
+      "witnesses": 633,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 37,
+      "witnesses": 669,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 39,
+      "witnesses": 744,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 40,
+      "witnesses": 783,
+      "coverage": "all exact-two sets"
+    },
+    {
+      "n": 60,
+      "witnesses": 33,
+      "coverage": "all relative distances, plus padding controls"
+    },
+    {
+      "n": 61,
+      "witnesses": 33,
+      "coverage": "all relative distances, plus padding controls"
+    },
+    {
+      "n": 99,
+      "witnesses": 52,
+      "coverage": "all relative distances, plus padding controls"
+    },
+    {
+      "n": 100,
+      "witnesses": 53,
+      "coverage": "all relative distances, plus padding controls"
+    },
+    {
+      "n": 300,
+      "witnesses": 153,
+      "coverage": "all relative distances, plus padding controls"
+    },
+    {
+      "n": 301,
+      "witnesses": 153,
+      "coverage": "all relative distances, plus padding controls"
+    }
+  ],
+  "scope": "Exact finite controls for the separate arbitrary-size written proof; no Lean claim."
+}

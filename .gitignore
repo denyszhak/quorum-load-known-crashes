@@ -1,0 +1,14 @@
+.lake/
+.tools/
+.cache/
+build/
+__pycache__/
+*.py[cod]
+*.olean
+*.olean.private
+*.olean.server
+*.ilean
+.venv/
+.DS_Store
+*.sw?
+*~

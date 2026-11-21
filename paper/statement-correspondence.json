@@ -1,0 +1,134 @@
+{
+  "paper_title": "Read-Write Quorum Load under Known Crashes",
+  "paper_doi": "10.5281/zenodo.24428085",
+  "paper_sha256": "a741491a172621e362054cb98aa27658ce48def3a131ec8c3cab5f4e9cc2b323",
+  "method": "Statement-by-statement comparison of the paper with the Lean model and declarations. The SHA-256 hash identifies the paper version.",
+  "model": {
+    "families": "The families are fixed. Every read quorum intersects every write quorum. Quorums in the same phase may be disjoint.",
+    "availability": "Both phases have normalized routes for every allowed failed set, even when one phase has zero traffic.",
+    "routing": "Clients know the failed set F before choosing contacts. The routes may depend on F and the real-valued read fraction alpha.",
+    "cost": "Each server contact costs one unit. Alpha is the fraction of quorum phases that are reads.",
+    "two_crash": "n=3k+r>=9; alpha<=(r+1)/(k*k+k+r-1); value=(3+(k-1)*alpha)/(n-2)",
+    "arbitrary_f": "f>=1; n=(f+1)k; k>=f*f+1; alpha<=1/((k-1)*(k+f)+1); value=(f+1+(k-1)*alpha)/(n-f)",
+    "balanced": "Paper t corresponds to Lean r; n=t*t-1 corresponds to n+1=r*r. alpha=1/2, <=2 known failures, fixed reads are all t-server cyclic intervals. H=(2t-1)/(2(t-2)(t+1)); matching lower bound only for these reads, arbitrary compatible write families.",
+    "full_range": "Lean-checked as printed, limits included. m=n-f, beta=alpha*(1-alpha). L*(alpha)=L*(1-alpha); L* >= max{(f+1)/m, 2*sqrt(beta/m)}; for m>=16*f*f, L* <= 20*max{(f+1)/m, sqrt(beta/m)}; L*=(1+o(1))*2*sqrt(beta/n) when min{alpha,1-alpha}*n/(f*f) grows.",
+    "unknown_failures": "Lean-checked as printed, limits included. Contact sets fixed before failures and containing a live quorum after any f later crashes; equivalently contact families with pairwise read/write intersections of size 2f+1. Lower bound max{(2f+1)/n, 2*sqrt((2f+1)*beta/n)}; exact value 2dq/(q*q+dn) at alpha=q*q/(q*q+dn), d=2f+1, q|n, q>=d. Comparison with the known-failure optimum only; no protocol is analysed.",
+    "not_claimed": "Exact values for all (n,f,alpha), the range where alpha*n is comparable to f*f, heterogeneous costs, or performance gains"
+  },
+  "claims": [
+    {
+      "paper_label": "prop:general",
+      "lean": "QuorumAudit.GeneralCrash.universal_dichotomy",
+      "status": "Complete general semantic lower bound",
+      "paper_model_bridge": "QuorumAudit.Paper.universal_lower_in_paper_model"
+    },
+    {
+      "paper_label": "prop:lower",
+      "lean": "QuorumAudit.GeneralCrash.universal_two_crash_all_n",
+      "status": "Complete two-crash lower bound for all three residues",
+      "paper_model_bridge": "QuorumAudit.Paper.all_n_lower_in_paper_model"
+    },
+    {
+      "paper_label": "lem:weighted-circle",
+      "lean": "Circle.sample_hits; Circle.sample_marginal; Circle.sample_card_exact; Circle.exact_ranked_sampled_routing",
+      "status": "Complete sampler and routing without an extra interval-rank hypothesis; explicit paper-model bridge checked",
+      "paper_model_bridge": "QuorumAudit.Paper.weighted_sampling_in_paper_model"
+    },
+    {
+      "paper_label": "thm:centered",
+      "lean": null,
+      "status": "The paper gives the read-selection proof. Python checks the finite certificates with exact arithmetic."
+    },
+    {
+      "paper_label": "prop:interval-obstruction",
+      "lean": null,
+      "status": "Written sharp small-size obstruction with exact arithmetic controls"
+    },
+    {
+      "paper_label": "thm:main",
+      "lean": "QuorumAudit.TwoCrash.two_crash_exact_optimum",
+      "status": "Complete sparse cyclic theorem, n=3k+2, k>=3; real workloads and <=2 failures",
+      "paper_model_bridge": "QuorumAudit.Paper.cyclic_exact_in_paper_model"
+    },
+    {
+      "paper_label": "tab:exceptions",
+      "lean": null,
+      "status": "All allowed failure sets at 9,10,12 rational checked; written real interpolation"
+    },
+    {
+      "paper_label": "thm:all-sizes",
+      "lean": null,
+      "status": "The paper combines the preceding results to prove equality for every n>=9."
+    },
+    {
+      "paper_label": "thm:general-f",
+      "lean": "QuorumAudit.GeneralF.arbitrary_f_exact_optimum",
+      "status": "Complete unrestricted optimum for f>=1, n=(f+1)k, k>=f*f+1; real workloads and <=f failures; no routing-existence premise",
+      "paper_model_bridge": "QuorumAudit.Paper.arbitrary_f_exact_in_paper_model"
+    },
+    {
+      "paper_label": "thm:voting",
+      "lean": "voting_prefix_bound; voting_gap_positive (arithmetic)",
+      "status": "Lean checks the arithmetic. The paper gives the combinatorial proof."
+    },
+    {
+      "paper_label": "thm:balanced-interval",
+      "lean": "MixedCircle.balanced_interval_exact; MixedCircle.balanced_interval_upper; MixedCircle.balanced_fixed_read_lower",
+      "status": "Complete fixed-read exact theorem for every t>=5, n=t*t-1, alpha=1/2 and <=2 known failures, with actual normalized real routes; no supplied certificate or routing-existence premise",
+      "paper_model_bridge": "QuorumAudit.Paper.balanced_fixed_reads_exact_in_paper_model"
+    },
+    {
+      "paper_label": "cor:balanced-upper",
+      "lean": "MixedCircle.balanced_interval_upper",
+      "status": "Lean proves the upper construction. The paper places it in the unrestricted model and compares it with the asymptotic bound. The lower bound H applies to the fixed interval reads."
+    },
+    {
+      "paper_label": "prop:symmetry",
+      "lean": "QuorumAudit.Paper.optimum_symmetry; QuorumAudit.Paper.feasible_symmetry",
+      "status": "Lean-checked as printed; exact finite replay in full_range_frontier_verify.py",
+      "paper_model_bridge": "QuorumAudit.Paper.optimum_symmetry"
+    },
+    {
+      "paper_label": "prop:amgm",
+      "lean": "QuorumAudit.Paper.known_lower_sqrt",
+      "status": "Lean-checked as printed, with the square root; exact finite replay in full_range_frontier_verify.py",
+      "paper_model_bridge": "QuorumAudit.Paper.known_lower_sqrt"
+    },
+    {
+      "paper_label": "prop:tiles",
+      "lean": "QuorumAudit.Paper.prop_tiles_ceil; QuorumAudit.Circle.tiles_exist",
+      "status": "Lean-checked as printed, with real ceilings: admissibility and routes after every allowed failed set; exact finite replay in full_range_frontier_verify.py",
+      "paper_model_bridge": "QuorumAudit.Paper.prop_tiles_ceil"
+    },
+    {
+      "paper_label": "thm:sharp",
+      "lean": "QuorumAudit.Paper.sharp_bracket; QuorumAudit.Paper.sharp_error; QuorumAudit.Paper.sharp_limit",
+      "status": "Lean-checked as printed: the two-sided bound, an explicit relative error 4f/sqrt(min{alpha,1-alpha}*n) once min{alpha,1-alpha}*n >= 64*f*f, and the limit along every parameter sequence; exact finite replay in full_range_frontier_verify.py",
+      "paper_model_bridge": "QuorumAudit.Paper.sharp_bracket"
+    },
+    {
+      "paper_label": "thm:order",
+      "lean": "QuorumAudit.Paper.order_sqrt",
+      "status": "Lean-checked as printed for n-f >= 16*f*f; exact finite replay in full_range_frontier_verify.py",
+      "paper_model_bridge": "QuorumAudit.Paper.order_sqrt"
+    },
+    {
+      "paper_label": "lem:contacts",
+      "lean": "QuorumAudit.Paper.contacts_iff",
+      "status": "Lean-checked; exact finite replay in full_range_frontier_verify.py",
+      "paper_model_bridge": "QuorumAudit.Paper.contacts_iff"
+    },
+    {
+      "paper_label": "thm:proactive",
+      "lean": "QuorumAudit.Paper.proactive_lower_sqrt; QuorumAudit.Paper.proactive_comb_design; QuorumAudit.Paper.proactive_exact_value; QuorumAudit.Paper.proactive_half; QuorumAudit.Paper.proactive_limit",
+      "status": "All four parts Lean-checked as printed; part (2) with the comb of the written proof; part (4) as a limit along every parameter sequence; exact finite replay in full_range_frontier_verify.py",
+      "paper_model_bridge": "QuorumAudit.Paper.proactive_lower_sqrt"
+    },
+    {
+      "paper_label": "cor:price",
+      "lean": "QuorumAudit.Paper.price_limit; QuorumAudit.Paper.price_limit_fixed; QuorumAudit.Paper.price_endpoints",
+      "status": "Lean-checked: the limit of the ratio and the endpoint values at alpha=0 and alpha=1; exact finite replay in full_range_frontier_verify.py",
+      "paper_model_bridge": "QuorumAudit.Paper.price_limit"
+    }
+  ]
+}

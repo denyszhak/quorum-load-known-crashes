@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+type: software
+message: "Please cite this repository and the accompanying paper."
+title: "Read-Write Quorum Load under Known Crashes: Verification Artifact"
+abstract: "Lean proofs and exact Python certificate checks for read-write quorum load under known crashes."
+authors:
+  - family-names: Zhak
+    given-names: Denys
+    orcid: "https://orcid.org/0009-0003-6426-0952"
+version: "1.0.0"
+date-released: "2026-11-21"
+license: MIT
+repository-code: "https://github.com/denyszhak/quorum-load-known-crashes"
+keywords:
+  - quorum systems
+  - distributed systems
+  - fault tolerance
+  - load balancing
+  - weighted voting
+  - formal verification
+  - Lean
+preferred-citation:
+  type: article
+  title: "Read-Write Quorum Load under Known Crashes"
+  authors:
+    - family-names: Zhak
+      given-names: Denys
+      orcid: "https://orcid.org/0009-0003-6426-0952"
+  year: 2026
+  doi: "10.5281/zenodo.24428085"

@@ -1,0 +1,288 @@
+{
+  "source_sha256": "a661743a7656274eb582b03f42cda291bed8c3a57cedb5cdd4117c34f17b8882",
+  "cases": [
+    {
+      "n": 13,
+      "file": "n13.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 81
+    },
+    {
+      "n": 15,
+      "file": "n15.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 108
+    },
+    {
+      "n": 16,
+      "file": "n16.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 123
+    },
+    {
+      "n": 18,
+      "file": "n18.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 156
+    },
+    {
+      "n": 19,
+      "file": "n19.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 174
+    },
+    {
+      "n": 21,
+      "file": "n21.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 213
+    },
+    {
+      "n": 22,
+      "file": "n22.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 234
+    },
+    {
+      "n": 23,
+      "file": "n23.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 256
+    },
+    {
+      "n": 24,
+      "file": "n24.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 279
+    },
+    {
+      "n": 25,
+      "file": "n25.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 303
+    },
+    {
+      "n": 26,
+      "file": "n26.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 328
+    },
+    {
+      "n": 27,
+      "file": "n27.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 354
+    },
+    {
+      "n": 28,
+      "file": "n28.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 381
+    },
+    {
+      "n": 29,
+      "file": "n29.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 409
+    },
+    {
+      "n": 30,
+      "file": "n30.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 438
+    },
+    {
+      "n": 31,
+      "file": "n31.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 468
+    },
+    {
+      "n": 32,
+      "file": "n32.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 499
+    },
+    {
+      "n": 33,
+      "file": "n33.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 531
+    },
+    {
+      "n": 34,
+      "file": "n34.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 564
+    },
+    {
+      "n": 35,
+      "file": "n35.json",
+      "coverage": "all exact-two sets",
+      "witnesses": 598
+    },
+    {
+      "n": 36,
+      "file": "n36.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 21
+    },
+    {
+      "n": 37,
+      "file": "n37.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 21
+    },
+    {
+      "n": 38,
+      "file": "n38.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 22
+    },
+    {
+      "n": 39,
+      "file": "n39.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 22
+    },
+    {
+      "n": 40,
+      "file": "n40.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 23
+    },
+    {
+      "n": 41,
+      "file": "n41.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 23
+    },
+    {
+      "n": 42,
+      "file": "n42.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 24
+    },
+    {
+      "n": 43,
+      "file": "n43.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 24
+    },
+    {
+      "n": 44,
+      "file": "n44.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 25
+    },
+    {
+      "n": 45,
+      "file": "n45.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 25
+    },
+    {
+      "n": 46,
+      "file": "n46.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 26
+    },
+    {
+      "n": 47,
+      "file": "n47.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 26
+    },
+    {
+      "n": 48,
+      "file": "n48.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 27
+    },
+    {
+      "n": 49,
+      "file": "n49.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 27
+    },
+    {
+      "n": 50,
+      "file": "n50.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 28
+    },
+    {
+      "n": 62,
+      "file": "n62.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 34
+    },
+    {
+      "n": 63,
+      "file": "n63.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 34
+    },
+    {
+      "n": 64,
+      "file": "n64.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 35
+    },
+    {
+      "n": 101,
+      "file": "n101.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 53
+    },
+    {
+      "n": 102,
+      "file": "n102.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 54
+    },
+    {
+      "n": 103,
+      "file": "n103.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 54
+    },
+    {
+      "n": 150,
+      "file": "n150.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 78
+    },
+    {
+      "n": 151,
+      "file": "n151.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 78
+    },
+    {
+      "n": 152,
+      "file": "n152.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 79
+    },
+    {
+      "n": 300,
+      "file": "n300.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 153
+    },
+    {
+      "n": 301,
+      "file": "n301.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 153
+    },
+    {
+      "n": 302,
+      "file": "n302.json",
+      "coverage": "all distances up to reflection",
+      "witnesses": 154
+    }
+  ],
+  "scope": "Finite controls; the separate proof supplies the arbitrary-size theorem."
+}
