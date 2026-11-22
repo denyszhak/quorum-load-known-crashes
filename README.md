@@ -48,6 +48,10 @@ python3 full_range_frontier_verify.py --out "$verification_dir/full-range"
 
 On success, each command exits with status 0. The strategy example reports load `13/133`. The certificate validators report `valid: true`, and the full-range replay reports `status: pass`. The full replay took about 2 minutes 40 seconds on an Apple Silicon Mac.
 
+## AI assistance
+
+This work used a human-directed, AI-assisted workflow. The Lean 4 kernel checks the formal proofs, which use no `sorry`. Separate Python scripts verify finite certificates using exact rational arithmetic.
+
 ## Citation and license
 
 The repository is available under the [MIT License](LICENSE). Cite the code and the paper using [`CITATION.cff`](CITATION.cff).
